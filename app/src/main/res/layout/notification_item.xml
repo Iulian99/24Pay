@@ -1,0 +1,85 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_corners"
+    android:layout_marginBottom="15dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout12"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19dp"
+            android:layout_marginBottom="19dp"
+            android:paddingStart="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+<!--            android:paddingEnd="1dp" ca sa nu se mai lipeasca Textview de iconita din stanga (icon_down)-->
+            <TextView
+                android:id="@+id/header_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:textSize="20sp"
+                android:text="New App Features!"
+                android:paddingEnd="1dp"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toStartOf="@+id/expand_icon"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/expand_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#252c36"
+                android:clickable="true"
+                android:focusable="true"
+                android:paddingEnd="10dp"
+                android:src="@drawable/icon_down"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+<!--                            android:padding="15dp"-->
+            <TextView
+                android:id="@+id/expanded_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:text="@string/newAppFeatures"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/expanded_date_notification" />
+
+<!--            android:padding="15dp"-->
+            <TextView
+                android:id="@+id/expanded_date_notification"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:text="Date"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/header_text" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

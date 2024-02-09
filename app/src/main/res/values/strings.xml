@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">24pay</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="PaymentHistory">Payment History</string>
+    <string name="newAppFeatures">Salut! Din dorinta de a-ti ofei o experienta cat mai buna in utilizarea aplicatiei 24pay si servicii cat mai diverse, te rugam sa ne spui parerea ta completand formularul disponibil: Aici.</string>
+    <string name="title_fragment_language">Select Language</string>
+    <string name="title_fragment_contact">Contact</string>
+    <string name="title_fragment_notification">Notifications</string>
+    <string name="title_fragment_faq">FAQ</string>
+    <!--    <string name="contactUs">If you have any questions about 24pay, please call us at 0721.10.24.24 / 0753.30.01.51 , daily from 08:00 to 20:00 .For more information, please visit <a href="https://www.google.com/">www.24pay.ro</a>.</string>-->
+    <string name="contactUs">If you have any questions about 24pay, please call us at <b>0721.10.24.24 / 0753.30.01.51</b> , daily from 08:00 to 20:00 .For more information, please visit <a href="https://www.google.com/">www.24pay.ro</a></string>
+    <string name="reportText">If you want to make a report, please fill out the form below and we will return with an answer within 24 hours of sending it.</string>
+    <string name="text24PayPIN">Your 24payPIN is used to login and confirm transactions. For security reasons, do not disclose this code.</string>
+    <string name="pay24">24pay</string>
+    <string name="appInfo">App info</string>
+
+</resources>

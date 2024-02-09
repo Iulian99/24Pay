@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <!-- Define the background color of the TextView -->
+            <solid android:color="#e4d554" />
+
+            <!-- Define the corners -->
+            <corners android:radius="8dp" />
+
+            <!-- Optional: Add border to the TextView -->
+            <!--<stroke android:width="2dp" android:color="#000000"/>-->
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    &lt;!&ndash; Culoarea pentru itemul selectat &ndash;&gt;-->
+<!--    <item android:color="@color/yellow" android:state_checked="true" android:height="181dp"/>-->
+<!--    &lt;!&ndash;     Culoarea pentru itemele neatinse &ndash;&gt;-->
+<!--    <item android:color="#FFFFFF"/>-->
+
+    <item android:color="@android:color/transparent" android:state_checked="true" android:state_focused="true"/>
+    <item android:color="@color/yellow" android:state_checked="true"/>
+    <item android:color="#FFFFFF"/>
+</selector>
