@@ -39,7 +39,6 @@ public class LoginActivity extends AppCompatActivity {
                 String emailTxt = email.getText().toString().trim();
                 String passwordTxt = password.getText().toString().trim();
 
-                // Ensure you perform validation on the inputs
                 if (!emailTxt.isEmpty() && !passwordTxt.isEmpty()) {
                     login(emailTxt, passwordTxt);
                 } else {

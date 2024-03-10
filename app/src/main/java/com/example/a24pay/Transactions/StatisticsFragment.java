@@ -10,11 +10,6 @@ import android.view.ViewGroup;
 
 import com.example.a24pay.R;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link StatisticsFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
 public class StatisticsFragment extends Fragment {
 
 

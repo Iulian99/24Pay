@@ -99,9 +99,8 @@ public class SettingsFragment extends Fragment implements Adapter.OnItemClickLis
             case 8:
                 fragmentToDisplay = new AppInfoFragment();
                 break;
-            // ... și așa mai departe pentru fiecare opțiune din listă
         }
-        //schimba activitatea catre un fragment de la fragment container(MAinActivity -> NotificationFragment)
+        // change activity from a fragment another (MAinActivity -> NotificationFragment)
         if (fragmentToDisplay != null) {
             requireActivity().getSupportFragmentManager().beginTransaction()
                     .replace(R.id.fragment_container, fragmentToDisplay) // presupunând că "container" este ID-ul FrameLayout sau al altui container în care dorești să afișezi fragmentul

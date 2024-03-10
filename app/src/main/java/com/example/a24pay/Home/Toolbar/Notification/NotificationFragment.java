@@ -47,32 +47,7 @@ public class NotificationFragment extends Fragment {
 
             }
         });
-//        Am definit doar pentru un ConstraintLayout ce nu contine Adapter
-//        headerText = view.findViewById(R.id.header_text);
-//        expandIcon = view.findViewById(R.id.expand_icon);
-//        expandedText = view.findViewById(R.id.expanded_text);
-//
-//        View.OnClickListener toggleListener = v -> {
-//            if (expandedText.getVisibility() == View.GONE) {
-//                expandedText.setVisibility(View.VISIBLE);
-//                expandIcon.setImageResource(R.drawable.icon_up);
-//            } else {
-//                expandedText.setVisibility(View.GONE);
-//                expandIcon.setImageResource(R.drawable.icon_down);
-//            }
-//        };
-////
-//        headerText.setOnClickListener(toggleListener);
-//        expandIcon.setOnClickListener(toggleListener);
-//        closeImageView = view.findViewById(R.id.closeImageView);
-//
-//        closeImageView.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                getParentFragmentManager().popBackStack();
-//            }
-//        });
-//        ItemTouchHelper.SimpleCallback !!!!
+
         list = new ArrayList<>();
         list.add(new NotificationsList("14 Sep 2023 18:58","Formular Feedback","Array1",""));
         list.add(new NotificationsList("14 Sep 2023 18:58","CFR tickets in 24pay","Array2",""));

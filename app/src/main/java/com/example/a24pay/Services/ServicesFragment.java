@@ -31,7 +31,7 @@ public class ServicesFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_services, container, false);
-//        Se creaza lista de public transport, train cfr, parking, plane tickets....
+//        public list transport, train cfr, parking, plane tickets....
         dataList = new ArrayList<>();
         dataList = createList();
 
@@ -46,7 +46,7 @@ public class ServicesFragment extends Fragment {
                     case ImageTitleList.IMAGE_TYPE:
                         return 1; // imaginile vor ocupa 1 coloană
                     default:
-                        return 2; // pentru cazuri neașteptate, poți să setezi la 3 sau o altă valoare care consideri că este sigură
+                        return 2;
                 }
             }
         });

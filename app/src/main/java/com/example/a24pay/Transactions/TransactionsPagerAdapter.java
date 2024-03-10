@@ -18,9 +18,9 @@ public class TransactionsPagerAdapter extends FragmentStateAdapter {
     public Fragment createFragment(int position) {
         switch (position) {
             case 0:
-                return new PaymentHistoryFragment(); // Acesta va fi fragmentul pentru primul tab
+                return new PaymentHistoryFragment();
             case 1:
-                return new StatisticsFragment(); // Acesta va fi fragmentul pentru al doilea tab
+                return new StatisticsFragment();
             default:
                 return new PaymentHistoryFragment();
         }

@@ -38,7 +38,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
         this.listener = listener;
     }
 
-//    Daca postion ==3 adica Biometric authentification atunci in dreapta lui sa imi afiseze un switch
+//    if postion ==3 adica Biometric authentification atunci in dreapta lui sa imi afiseze un switch
     @Override
     public int  getItemViewType(int position) {
         if(position==3){

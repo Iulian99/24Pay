@@ -36,12 +36,12 @@ public class ScanFragment extends Fragment {
     @Override
     public void onStart() {
         super.onStart();
-        scanCode();//Dacă vrei ca scanarea să înceapă de îndată ce fragmentul este complet
+        scanCode();
 
     }
 
 
-//    if the user press backButton the fragment will go to the homefragment - to dont repeted onStart()
+//    if the user press backButton the fragment will go to the homefragment - not repeted onStart()
     @Override
     public void onPause() {
         super.onPause();

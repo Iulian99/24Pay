@@ -109,19 +109,6 @@ public class HomeFragment extends Fragment {
         recyclerView.setAdapter(adapter);
     }
 
-//    public void navigateToFragment(Fragment fragment) {
-//        FragmentTransaction transaction = requireActivity().getSupportFragmentManager().beginTransaction();
-////        animatie cand apas pe notification,settings sau profile Fragment
-//        transaction.setCustomAnimations(R.anim.enter_right_to_left,
-//                R.anim.enter_left_to_right,
-//                R.anim.exit_left_to_right,
-//                R.anim.exit_right_to_left);
-//
-//        transaction.replace(R.id.fragment_container, fragment);
-//        transaction.addToBackStack(null);
-//        transaction.commit();
-//    }
-
     public List<ImageTitleList> createList(){
         dataList.add(new ImageTitleList(ImageTitleList.TEXT_TYPE, "Services", 0));
         dataList.add(new ImageTitleList(ImageTitleList.IMAGE_TYPE, "", R.drawable.bus,"Public transport"));

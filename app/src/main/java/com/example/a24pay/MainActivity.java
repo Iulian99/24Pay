@@ -31,13 +31,6 @@ public class MainActivity extends AppCompatActivity {
         BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
         bottomNav.setOnItemSelectedListener(navListener);
 
-//      1. `ContextCompat.checkSelfPermission(...)`: Aceasta este o metodă de ajutor care returnează starea actuală a permisiunii specificate. În acest caz, verificați starea permisiunii `CAMERA`.
-//      2. `this`: Se referă la contextul curent, de obicei o activitate.
-//      3. `Manifest.permission.CAMERA`: Este o constantă ce reprezintă permisiunea pentru a accesa camera.
-//      4. `PackageManager.PERMISSION_GRANTED`: Este o constantă ce indică faptul că permisiunea a fost acordată.
-//        if (ContextCompat.checkSelfPermission(this, android.Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
-//            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.CAMERA}, REQUEST_CAMERA_PERMISSION);
-//        }
 
 //        itemBackground(bottomNav);
         // Set the initial fragment (optional):
@@ -70,8 +63,6 @@ public class MainActivity extends AppCompatActivity {
                         selectedFragment = new ServicesFragment();
                     } else if (itemId == R.id.scan_fragment) {
                         selectedFragment = new ScanFragment();
-                        // Dacă ești într-un fragment și ai definit metoda `checkPermissions` în fragment:
-//                        ((ScanFragment) getSupportFragmentManager().findFragmentById(R.id.scan_fragment)).checkPermissions();
                     } else if (itemId == R.id.transactions_fragment) {
                         selectedFragment = new TransactionsFragment();
                     } else if (itemId == R.id.wallet_fragment) {
